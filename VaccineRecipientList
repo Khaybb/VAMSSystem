@@ -15,23 +15,25 @@ public class VaccineRecipientList {
 //*************************************************************
 private class VaccineRecipientNode {
 
-  //We need more info such as gender,etc. Do we need a new class for this?
+  //We need more info such as gender,etc. Do we need a new class for this? (Professor said it's up to us whether we make another class for this info,
+  // She also said we can add whatever supplemental info we want)
   private int RecipientID;
   private String name;
-  private pre-Q; //this is not proper nomenclature and not sure what type of object, do we need a new class?
+  private String preQ; //Not sure what type of object, do we need a new class? (Profssor said to start with String and change 
+  		       //to an Object if we have time)
   private int num_dose;
   private boolean certificate;
   private VaccineRecipientNode next; //link to next node in list
   
-  //------------------------------------------------------------------ 
-	// Constructor; sets up the node given a ______
+  	//------------------------------------------------------------------ 
+	// Constructor; sets up the node given a ______ (We need to fill in the blank after we have all of our vars)
 	//------------------------------------------------------------------
-  private VaccineRecipientNode() {
+  private VaccineRecipientNode(int RecipientID, String name, String preQ, VaccineRecipientNode next) {
     this.RecipientID = RecipientID;
     this.name = name;
-    this.pre-Q = pre-Q;
-    this.num_dose = num_dose; // do we want num_dose to initially be zero
-    this.certificate = certificate; // do we want certificate to initially be false
+    this.preQ = preQ;
+    this.num_dose = num_dose; // do we want num_dose to initially be zero (Professor said it's up to us)
+    this.certificate = certificate; // do we want certificate to initially be false (Professor said it's up to us)
     this.next = next;
   }
 }
