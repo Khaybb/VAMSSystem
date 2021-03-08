@@ -1,0 +1,37 @@
+public class VaccineRecipientList {
+  private VaccineRecipientNode front; //first node in list, first vaccine recipient
+  //-----------------------------------------
+	//  Constructor.  Initially list is empty.
+	//-----------------------------------------
+  public VaccineRecipientList() {
+    front = null;
+  }
+}
+
+
+//*************************************************************
+// An inner class that represents a node in the recipient list.
+// The private variables are accessed by the RecipientList class.
+//*************************************************************
+private class VaccineRecipientNode {
+
+  //We need more info such as gender,etc. Do we need a new class for this?
+  private int RecipientID;
+  private String name;
+  private pre-Q; //this is not proper nomenclature and not sure what type of object, do we need a new class?
+  private int num_dose;
+  private boolean certificate;
+  private VaccineRecipientNode next; //link to next node in list
+  
+  //------------------------------------------------------------------ 
+	// Constructor; sets up the node given a ______
+	//------------------------------------------------------------------
+  private VaccineRecipientNode() {
+    this.RecipientID = RecipientID;
+    this.name = name;
+    this.pre-Q = pre-Q;
+    this.num_dose = num_dose; // do we want num_dose to initially be zero
+    this.certificate = certificate; // do we want certificate to initially be false
+    this.next = next;
+  }
+}
