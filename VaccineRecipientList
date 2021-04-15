@@ -8,7 +8,7 @@ public class VaccineRecipientList {
   }
 }
 
-										tHIS IS THE OBVIOUS EDIT
+
 //*************************************************************
 // An inner class that represents a node in the recipient list.
 // The private variables are accessed by the RecipientList class.
